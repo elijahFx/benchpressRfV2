@@ -7,7 +7,7 @@ const cors = require("cors")
 
 app.use(express.json())
 app.use(cors({
-    origin: [""],
+    origin: ["https://benchpress-rf-v2.vercel.app/"],
     methods: ["POST", "GET", "DELETE"],
     credentials: true
 }))
